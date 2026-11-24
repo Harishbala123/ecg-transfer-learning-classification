@@ -1,0 +1,59 @@
+{
+  "train": {
+    "accuracy": 0.9299456825219554,
+    "macro_f1": 0.9214011977878943,
+    "precision_apnea": 0.8983437167603707,
+    "recall_apnea_sensitivity": 0.8926468367809149,
+    "f1_apnea": 0.8954862162980914,
+    "precision_normal": 0.9457996645830157,
+    "recall_normal_specificity": 0.9488375650045886,
+    "f1_normal": 0.9473161792776972,
+    "roc_auc": 0.9798029494535182,
+    "tp": 5912,
+    "tn": 12407,
+    "fp": 669,
+    "fn": 711,
+    "n": 19699
+  },
+  "val": {
+    "accuracy": 0.8589623525004683,
+    "macro_f1": 0.8568536739714275,
+    "precision_apnea": 0.8163349917081261,
+    "recall_apnea_sensitivity": 0.863975427819219,
+    "f1_apnea": 0.839479855041569,
+    "precision_normal": 0.8940895114451657,
+    "recall_normal_specificity": 0.8552287581699346,
+    "f1_normal": 0.8742274929012861,
+    "roc_auc": 0.9395542420566294,
+    "tp": 1969,
+    "tn": 2617,
+    "fp": 443,
+    "fn": 310,
+    "n": 5339
+  },
+  "test": {
+    "accuracy": 0.8460578559273965,
+    "macro_f1": 0.8443551011779573,
+    "precision_apnea": 0.8554973821989529,
+    "recall_apnea_sensitivity": 0.8023569850233243,
+    "f1_apnea": 0.8280755099455214,
+    "precision_normal": 0.8388388388388388,
+    "recall_normal_specificity": 0.8835934204976803,
+    "f1_normal": 0.8606346924103934,
+    "roc_auc": 0.9277225327772374,
+    "tp": 3268,
+    "tn": 4190,
+    "fp": 552,
+    "fn": 805,
+    "n": 8815
+  },
+  "test_records": {
+    "accuracy": 0.8333333333333334,
+    "n_records": 18,
+    "thresholds_fit_on_train": [
+      0.06542056074766354,
+      0.177734375
+    ],
+    "apnea_fraction_correlation": 0.9671788368616445
+  }
+}

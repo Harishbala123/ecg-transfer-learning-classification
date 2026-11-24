@@ -1,0 +1,36 @@
+# ECG-based sleep-apnea detection with AlexNet transfer learning
+seed: 42
+
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  fs: 100                    # Apnea-ECG sampling rate (Hz)
+
+signal:
+  context_minutes: 5         # each sample = labelled minute ± 2 neighbouring minutes of ECG
+  resample_hz: 4.0           # RR / EDR series are interpolated onto a 4 Hz grid
+  rr_min: 0.3                # physiologically plausible RR range (s)
+  rr_max: 2.0
+  f_min: 0.01                # wavelet frequency band (Hz): apnea cycles ~0.01-0.05, breathing ~0.15-0.4
+  f_max: 0.5
+  n_freqs: 64
+  image_width: 128           # stored image size (freq x time); resized to 224x224 for AlexNet
+
+split:                       # subject-level split (recordings of the same person never cross splits)
+  val_fraction: 0.15
+  test_fraction: 0.2
+
+model:
+  input_size: 224
+  dense_units: 256
+  dropout: 0.5
+  pretrained_weights: models/alexnet_imagenet_conv.npz
+
+training:
+  batch_size: 64
+  head_epochs: 6             # stage 1: frozen AlexNet backbone, train new head
+  head_lr: 0.001
+  finetune_epochs: 8         # stage 2: unfreeze conv4-conv5 (kept only if it beats stage 1 on validation)
+  finetune_lr: 0.00003
+  patience: 4
+  class_weight: balanced

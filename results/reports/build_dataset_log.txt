@@ -1,0 +1,80 @@
+﻿python.exe : 17:33:44 | INFO | src.data.dataset | a01: 485 minute images (468 apnea) from 489 labelled minutes
+At line:1 char:551
++ ... _LEVEL="2"; & "$env:USERPROFILE\resume_projects\.venvs\ecg\Scripts\py ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (17:33:44 | INFO...abelled minutes:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+17:33:49 | INFO | src.data.dataset | a02: 524 minute images (418 apnea) from 528 labelled minutes
+17:33:49 | INFO | src.data.dataset | a03: 515 minute images (244 apnea) from 519 labelled minutes
+17:33:49 | INFO | src.data.dataset | a04: 488 minute images (451 apnea) from 492 labelled minutes
+17:34:39 | INFO | src.data.dataset | a05: 449 minute images (274 apnea) from 454 labelled minutes
+17:34:46 | INFO | src.data.dataset | a06: 505 minute images (206 apnea) from 510 labelled minutes
+17:34:52 | INFO | src.data.dataset | a07: 506 minute images (319 apnea) from 511 labelled minutes
+17:34:52 | INFO | src.data.dataset | a08: 496 minute images (189 apnea) from 501 labelled minutes
+17:35:43 | INFO | src.data.dataset | a09: 491 minute images (379 apnea) from 495 labelled minutes
+17:35:54 | INFO | src.data.dataset | a10: 512 minute images (97 apnea) from 517 labelled minutes
+17:35:54 | INFO | src.data.dataset | a11: 462 minute images (220 apnea) from 466 labelled minutes
+17:36:07 | INFO | src.data.dataset | a12: 573 minute images (532 apnea) from 577 labelled minutes
+17:36:50 | INFO | src.data.dataset | a13: 490 minute images (241 apnea) from 495 labelled minutes
+17:37:00 | INFO | src.data.dataset | a14: 505 minute images (383 apnea) from 509 labelled minutes
+17:37:02 | INFO | src.data.dataset | a15: 505 minute images (368 apnea) from 510 labelled minutes
+17:37:09 | INFO | src.data.dataset | a16: 477 minute images (319 apnea) from 482 labelled minutes
+17:37:50 | INFO | src.data.dataset | a17: 480 minute images (158 apnea) from 485 labelled minutes
+17:38:04 | INFO | src.data.dataset | a18: 485 minute images (436 apnea) from 489 labelled minutes
+17:38:05 | INFO | src.data.dataset | a19: 498 minute images (202 apnea) from 502 labelled minutes
+17:38:15 | INFO | src.data.dataset | a20: 506 minute images (315 apnea) from 510 labelled minutes
+17:38:52 | INFO | src.data.dataset | b01: 482 minute images (19 apnea) from 487 labelled minutes
+17:39:12 | INFO | src.data.dataset | b02: 513 minute images (93 apnea) from 517 labelled minutes
+17:39:12 | INFO | src.data.dataset | b03: 436 minute images (71 apnea) from 441 labelled minutes
+17:39:12 | INFO | src.data.dataset | b04: 419 minute images (10 apnea) from 429 labelled minutes
+17:39:47 | INFO | src.data.dataset | b05: 428 minute images (55 apnea) from 433 labelled minutes
+17:40:06 | INFO | src.data.dataset | c01: 473 minute images (0 apnea) from 484 labelled minutes
+17:40:14 | INFO | src.data.dataset | c02: 491 minute images (1 apnea) from 502 labelled minutes
+17:40:14 | INFO | src.data.dataset | c03: 449 minute images (0 apnea) from 454 labelled minutes
+17:40:46 | INFO | src.data.dataset | c04: 461 minute images (0 apnea) from 482 labelled minutes
+17:41:09 | INFO | src.data.dataset | c05: 461 minute images (3 apnea) from 466 labelled minutes
+17:41:15 | INFO | src.data.dataset | c06: 463 minute images (1 apnea) from 468 labelled minutes
+17:41:15 | INFO | src.data.dataset | c07: 424 minute images (4 apnea) from 429 labelled minutes
+17:41:55 | INFO | src.data.dataset | c08: 509 minute images (0 apnea) from 513 labelled minutes
+17:42:12 | INFO | src.data.dataset | c09: 454 minute images (2 apnea) from 468 labelled minutes
+17:42:12 | INFO | src.data.dataset | c10: 418 minute images (1 apnea) from 431 labelled minutes
+17:42:26 | INFO | src.data.dataset | x01: 511 minute images (374 apnea) from 523 labelled minutes
+17:42:56 | INFO | src.data.dataset | x02: 465 minute images (207 apnea) from 469 labelled minutes
+17:43:05 | INFO | src.data.dataset | x03: 461 minute images (12 apnea) from 465 labelled minutes
+17:43:15 | INFO | src.data.dataset | x04: 471 minute images (0 apnea) from 482 labelled minutes
+17:43:32 | INFO | src.data.dataset | x05: 500 minute images (314 apnea) from 505 labelled minutes
+17:43:47 | INFO | src.data.dataset | x06: 443 minute images (0 apnea) from 450 labelled minutes
+17:44:07 | INFO | src.data.dataset | x07: 504 minute images (237 apnea) from 509 labelled minutes
+17:44:16 | INFO | src.data.dataset | x08: 513 minute images (322 apnea) from 517 labelled minutes
+17:44:33 | INFO | src.data.dataset | x09: 503 minute images (167 apnea) from 508 labelled minutes
+17:44:55 | INFO | src.data.dataset | x10: 505 minute images (96 apnea) from 510 labelled minutes
+17:45:12 | INFO | src.data.dataset | x11: 452 minute images (13 apnea) from 457 labelled minutes
+17:45:33 | INFO | src.data.dataset | x12: 523 minute images (57 apnea) from 527 labelled minutes
+17:45:50 | INFO | src.data.dataset | x13: 502 minute images (288 apnea) from 506 labelled minutes
+17:46:04 | INFO | src.data.dataset | x14: 486 minute images (437 apnea) from 490 labelled minutes
+17:46:18 | INFO | src.data.dataset | x15: 490 minute images (196 apnea) from 498 labelled minutes
+17:46:40 | INFO | src.data.dataset | x16: 510 minute images (65 apnea) from 515 labelled minutes
+17:46:41 | INFO | src.data.dataset | x17: 387 minute images (1 apnea) from 400 labelled minutes
+17:47:04 | INFO | src.data.dataset | x18: 443 minute images (2 apnea) from 459 labelled minutes
+17:47:22 | INFO | src.data.dataset | x19: 483 minute images (405 apnea) from 487 labelled minutes
+17:47:48 | INFO | src.data.dataset | x20: 496 minute images (254 apnea) from 513 labelled minutes
+17:47:49 | INFO | src.data.dataset | x21: 505 minute images (119 apnea) from 510 labelled minutes
+17:48:06 | INFO | src.data.dataset | x22: 470 minute images (2 apnea) from 482 labelled minutes
+17:48:31 | INFO | src.data.dataset | x23: 523 minute images (119 apnea) from 527 labelled minutes
+17:48:39 | INFO | src.data.dataset | x24: 414 minute images (1 apnea) from 429 labelled minutes
+17:48:55 | INFO | src.data.dataset | x25: 505 minute images (288 apnea) from 510 labelled minutes
+17:49:11 | INFO | src.data.dataset | x26: 515 minute images (344 apnea) from 520 labelled minutes
+17:49:30 | INFO | src.data.dataset | x27: 493 minute images (484 apnea) from 498 labelled minutes
+17:49:42 | INFO | src.data.dataset | x28: 484 minute images (423 apnea) from 495 labelled minutes
+17:49:51 | INFO | src.data.dataset | x29: 460 minute images (0 apnea) from 470 labelled minutes
+17:50:12 | INFO | src.data.dataset | x30: 507 minute images (326 apnea) from 511 labelled minutes
+17:50:41 | INFO | src.data.dataset | x31: 553 minute images (514 apnea) from 557 labelled minutes
+17:50:50 | INFO | src.data.dataset | x32: 534 minute images (423 apnea) from 538 labelled minutes
+17:50:52 | INFO | src.data.dataset | x33: 468 minute images (2 apnea) from 473 labelled minutes
+17:51:11 | INFO | src.data.dataset | x34: 470 minute images (4 apnea) from 475 labelled minutes
+17:51:36 | INFO | src.data.dataset | x35: 471 minute images (0 apnea) from 483 labelled minutes
+labelled_minutes    34313
+images              33853
+apnea_images        12975
+dtype: int64

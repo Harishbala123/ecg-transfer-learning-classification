@@ -1,0 +1,56 @@
+﻿python.exe : WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+At line:1 char:494
++ ... _LEVEL="2"; & "$env:USERPROFILE\resume_projects\.venvs\ecg\Scripts\py ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (WARNING: All lo...itten to STDERR:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+I0000 00:00:1795524786.732485    6092 port.cc:153] oneDNN custom operations are on. You may see slightly different 
+numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the 
+environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1795524799.757183    6092 port.cc:153] oneDNN custom operations are on. You may see slightly different 
+numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the 
+environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+18:23:52 | INFO | src.training.train | train 19699 images, apnea 33.6 %, records 41, subjects 19
+18:23:52 | INFO | src.training.train | val    5339 images, apnea 42.7 %, records 11, subjects 6
+18:23:52 | INFO | src.training.train | test   8815 images, apnea 46.2 %, records 18, subjects 7
+E0000 00:00:1795524835.289116    6092 util.cc:131] oneDNN supports DT_HALF only on platforms with AVX-512. Falling 
+back to the default Eigen-based implementation if present.
+18:23:55 | INFO | src.training.train | Stage 1: frozen AlexNet backbone, training head (2360066 trainable params)
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if 
+CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+C:\Users\Harish Bala\resume_projects\.venvs\ecg\Lib\site-packages\keras\src\trainers\epoch_iterator.py:74: 
+UserWarning: `shuffle=True` was passed, but will be ignored since the data `x` was provided as a tf.data.Dataset. The 
+Dataset is expected to already be shuffled (via `.shuffle(buffer_size)`).
+  self.data_adapter = data_adapters.get_data_adapter(
+Epoch 1/6
+308/308 - 138s - 448ms/step - accuracy: 0.7418 - loss: 0.6324 - val_accuracy: 0.8217 - val_loss: 0.4063
+Epoch 2/6
+308/308 - 157s - 510ms/step - accuracy: 0.8059 - loss: 0.4425 - val_accuracy: 0.8326 - val_loss: 0.3657
+Epoch 3/6
+308/308 - 165s - 536ms/step - accuracy: 0.8246 - loss: 0.4122 - val_accuracy: 0.8093 - val_loss: 0.4077
+Epoch 4/6
+308/308 - 162s - 525ms/step - accuracy: 0.8288 - loss: 0.3964 - val_accuracy: 0.8202 - val_loss: 0.3928
+Epoch 5/6
+308/308 - 242s - 785ms/step - accuracy: 0.8294 - loss: 0.3932 - val_accuracy: 0.8183 - val_loss: 0.3915
+Epoch 6/6
+308/308 - 159s - 515ms/step - accuracy: 0.8294 - loss: 0.3877 - val_accuracy: 0.8251 - val_loss: 0.3904
+18:40:58 | INFO | src.training.train | Stage 2: fine-tuning conv4-conv5 (3835138 trainable params)
+Epoch 1/8
+308/308 - 245s - 795ms/step - accuracy: 0.8512 - loss: 0.3625 - val_accuracy: 0.8472 - val_loss: 0.3536
+Epoch 2/8
+308/308 - 287s - 930ms/step - accuracy: 0.8762 - loss: 0.3121 - val_accuracy: 0.8528 - val_loss: 0.3465
+Epoch 3/8
+308/308 - 292s - 949ms/step - accuracy: 0.8881 - loss: 0.2826 - val_accuracy: 0.8434 - val_loss: 0.3581
+Epoch 4/8
+308/308 - 266s - 862ms/step - accuracy: 0.8971 - loss: 0.2616 - val_accuracy: 0.8326 - val_loss: 0.3987
+Epoch 5/8
+308/308 - 244s - 792ms/step - accuracy: 0.9054 - loss: 0.2407 - val_accuracy: 0.8590 - val_loss: 0.3330
+Epoch 6/8
+308/308 - 247s - 802ms/step - accuracy: 0.9112 - loss: 0.2284 - val_accuracy: 0.8507 - val_loss: 0.3557
+Epoch 7/8
+308/308 - 241s - 781ms/step - accuracy: 0.9173 - loss: 0.2090 - val_accuracy: 0.8552 - val_loss: 0.3550
+Epoch 8/8
+308/308 - 244s - 792ms/step - accuracy: 0.9200 - loss: 0.1984 - val_accuracy: 0.8565 - val_loss: 0.3642
+19:15:24 | INFO | src.training.train | Done in 3089s
