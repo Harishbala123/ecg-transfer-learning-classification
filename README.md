@@ -8,6 +8,12 @@ A deep-learning pipeline that detects **obstructive sleep apnea, a sleep-related
 
 ![Prediction demo](results/graphs/prediction_demo_x05.png)
 
+## Interactive demo
+```powershell
+.\run_demo.bat              # or: streamlit run app.py   → http://localhost:8503
+```
+Pick an overnight recording and the app runs the full pipeline live: raw ECG, then R-peaks, RR/EDR wavelet images, AlexNet, per-minute apnea probability and the recording diagnosis. You can also inspect any single minute's images. A held-out test recording ([samples/x05](samples/)) is bundled, so it works without downloading the database. After `python scripts/download_data.py`, all 70 recordings are available.
+
 ---
 
 ## Relation to the resume wording
